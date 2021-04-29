@@ -13,3 +13,8 @@ def test_star3():
     actual=star_print(3)
     expected="***"
     assert actual == expected
+
+def test_star4():
+    actual=star_print(4)
+    expected="***"
+    assert actual == expected
